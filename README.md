@@ -47,4 +47,20 @@ Uygulama, **MVVM** (Model-View-ViewModel) mimarisi ile geliştirilmiş olup, **C
 ## Kullanıcı Deneyimi
 Taskly, kullanıcı dostu bir arayüze sahip olup, görev ve alışkanlıkları kolayca takip etmenizi sağlar. Görsel açıdan şık, anlaşılır ve etkili bir kullanıcı deneyimi sunmak için özenle tasarlanmıştır.
 
+
+## Nasıl Çalıştırılır?
+1. Repozitoriyi klonlayın:
+   ```bash
+   git clone https://github.com/tanerkaynar2/taskly.git
+   
+Android Studio'yu açın ve projeyi yükleyin.
+
+Uygulamayı çalıştırın:
+
+Android emülatörü seçin veya bir fiziksel cihaz bağlayın.
+
+Run (Yeşil Play butonu) butonuna tıklayarak uygulamayı başlatın.
+
+Bağımlılıkları ve gerekli araçları (Android SDK, Gradle gibi) yükleyin.
+
 ---
