@@ -70,6 +70,7 @@ Taskly, kullanıcı dostu bir arayüze sahip olup, görev ve alışkanlıkları 
 
 
 [APK İndir](https://github.com/tanerkaynar2/taskly/releases/download/v1.0/Taskly.apk)
+
 [APK'yı Google Drive üzerinden indir](https://drive.google.com/file/d/1tQs2sQs3dMai5DV-5Q5luXCHa8k2hGBt/view?usp=drive_link)
 
 ## Nasıl Çalıştırılır?
