@@ -20,7 +20,7 @@
 - **Veriler ve İstatistikler**: Alışkanlıklarınızın sıklığını, başarı oranlarını ve genel ilerlemenizi grafiklerle takip edebilirsiniz.
 - **Başarılar ve Puanlama**: Alışkanlıklarınızı takip ederken başarımlar kazanabilirsiniz.
 
-- ### Yedekleme ve Veri Koruma
+### Yedekleme ve Veri Koruma
 - **Veri Yedekleme**: Kullanıcı verileri düzenli olarak yedeklenebilir, böylece veri kaybı riski ortadan kaldırılır. 
 - **Veri Güvenliği**: Uygulama, kullanıcı verilerini güvenli bir şekilde saklar ve yalnızca yetkilendirilmiş kişiler tarafından erişilebilir olmasını sağlar.
 
