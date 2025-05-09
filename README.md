@@ -64,6 +64,11 @@ Taskly, kullanıcı dostu bir arayüze sahip olup, görev ve alışkanlıkları 
 - **Bildirimler**
   <p float="left"> <img src="screenshots/notifications.jpg" width="250"/> <img src="screenshots/daily_notifications.jpg" width="250"/> <img src="screenshots/task_notifications.jpg" width="250"/></p>
 
+
+## 📥 Uygulamayı İndir (APK)
+
+[APK İndir](https://drive.google.com/file/d/1tQs2sQs3dMai5DV-5Q5luXCHa8k2hGBt/view?usp=sharing)
+
 ## Nasıl Çalıştırılır?
 1. Repozitoriyi klonlayın:
    ```bash
