@@ -65,9 +65,12 @@ Taskly, kullanıcı dostu bir arayüze sahip olup, görev ve alışkanlıkları 
   <p float="left"> <img src="screenshots/notifications.jpg" width="250"/> <img src="screenshots/daily_notifications.jpg" width="250"/> <img src="screenshots/task_notifications.jpg" width="250"/></p>
 
 
+
 ## 📥 Uygulamayı İndir (APK)
 
-[APK İndir](https://drive.google.com/file/d/1tQs2sQs3dMai5DV-5Q5luXCHa8k2hGBt/view?usp=sharing)
+
+[APK İndir](https://github.com/tanerkaynar2/taskly/releases/download/v1.0/Taskly.apk)
+[APK'yı Google Drive üzerinden indir](https://drive.google.com/file/d/1tQs2sQs3dMai5DV-5Q5luXCHa8k2hGBt/view?usp=drive_link)
 
 ## Nasıl Çalıştırılır?
 1. Repozitoriyi klonlayın:
