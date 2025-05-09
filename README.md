@@ -1,58 +1,46 @@
-Taskly - Akıllı Görev ve Alışkanlık Yöneticisi
-Taskly, kullanıcıların görevlerini ve alışkanlıklarını takip etmelerini, düzenlemelerini ve hatırlatmalarla motive olmalarını sağlayan bir Android uygulamasıdır. Jetpack Compose ile sıfırdan geliştirilmiş ve tamamen kullanıcı dostu bir arayüzle tasarlanmıştır.
+# Taskly - Akıllı Görev ve Alışkanlık Yöneticisi
 
-Özellikler
-Görevler
-Görev Oluşturma: Haftalık, aylık, günlük ya da tek seferlik görevler oluşturabilirsiniz.
+**Taskly**, kullanıcıların görevlerini ve alışkanlıklarını takip etmelerini, düzenlemelerini ve hatırlatmalarla motive olmalarını sağlayan bir Android uygulamasıdır. Uygulama, modern Android teknolojilerini kullanarak sıfırdan geliştirilmiştir ve tamamen kullanıcı dostu bir arayüzle tasarlanmıştır.
 
-Bildirimler: Görev başlangıç, tamamlanma ve ilerleme bildirimleriyle sürekli bilgilendirilirsiniz. Görev öncesi hatırlatıcılar, belirlediğiniz saatte size bildirim gönderir.
+## Özellikler
 
-Alt Görevler: Ana görevler için alt görevler oluşturabilir, ilerlemenizi daha ayrıntılı şekilde takip edebilirsiniz.
+### Görevler
+- **Görev Oluşturma**: Haftalık, aylık, günlük ya da tek seferlik görevler oluşturabilirsiniz.
+- **Bildirimler**: Görev başlangıcı, tamamlanma ve ilerleme bildirimleriyle sürekli bilgilendirilirsiniz. Görev öncesi hatırlatıcılar, belirlediğiniz saatte bildirim gönderir.
+- **Alt Görevler**: Ana görevler için alt görevler oluşturabilir ve ilerlemenizi daha ayrıntılı şekilde takip edebilirsiniz.
+- **Motivasyon Bildirimleri**: Günlük olarak size motivasyon sözleri bildirim olarak gönderilir.
+- **Görev Durumu**: Görevlerinizi "başlandı", "devam ediliyor" ve "tamamlandı" gibi durumlarla takip edebilirsiniz.
+- **Zamanlama Ayarları**: Görev öncesi bildirim zamanını ayarlayabilir ve bildirimin sesini açıp kapatabilirsiniz.
+- **Görev Öncesi Hatırlatıcılar**: Eğer o gün görev yapılmamışsa, düzenli aralıklarla hatırlatıcı bildirimleri alırsınız.
+- **Ana Sayfa**: Günlük görevlerinizi ve kalan zamanınızı ana sayfada kolayca takip edebilirsiniz.
 
-Motivasyon Bildirimleri: Görevlerinizi tamamlamanızı teşvik etmek için günlük motivasyon sözleri alırsınız.
+### Alışkanlıklar
+- **Alışkanlık Takibi**: Düzenli olarak yapmanız gereken alışkanlıkları oluşturabilir ve takip edebilirsiniz.
+- **Hatırlatıcılar**: Bir alışkanlık uzun süre yapılmazsa, hatırlatıcı bildirim gönderilir.
+- **Veriler ve İstatistikler**: Alışkanlıklarınızın sıklığını, başarı oranlarını ve genel ilerlemenizi grafiklerle takip edebilirsiniz.
+- **Başarılar ve Puanlama**: Alışkanlıklarınızı takip ederken başarımlar kazanabilirsiniz.
 
-Görev İlerlemesi: Görevlerinizi yapmak için "başlandı", "devam ediliyor" ve "tamamlandı" gibi durumlarla takip edebilirsiniz.
+### İleri Düzey Özellikler
+- **Takvim**: Görev ve alışkanlıklarınızı takvim üzerinde takip edebilir, tarihleri işaretleyebilir ve notlar ekleyebilirsiniz.
+- **İstatistikler**: Alışkanlıklarınızın sıklığı, başarı oranları ve diğer veriler grafiklerle görselleştirilir.
 
-Zamanlama Ayarları: Görev öncesi bildirim zamanı ayarlanabilir, bildirimin sesini açıp kapatabilirsiniz.
+## Kullanılan Teknolojiler
 
-Görev Öncesi Hatırlatıcılar: Eğer o gün bir görev yapılmamışsa, görev öncesinde düzenli hatırlatıcılar gönderilir.
+- **Jetpack Compose**: Modern Android UI aracı olan Jetpack Compose ile uygulama sıfırdan geliştirilmiştir.
+- **Room Database**: Verilerinizi güvenli bir şekilde saklamak için Room veritabanı kullanıldı.
+- **Broadcast Receiver ve Bildirimler**: Görev ve alışkanlık hatırlatıcıları için bildirimler Broadcast Receiver ile yönetilmektedir.
 
-Ana Sayfa: Günlük görevlerinizi ve kalan zamanınızı ana sayfada kolayca takip edebilirsiniz.
+## Mimari
+Uygulama, **MVVM** (Model-View-ViewModel) mimarisi ile geliştirilmiş olup, **Clean Architecture** prensiplerine uygun olarak yapılandırılmıştır. Bu sayede kod bakımı kolay ve esnek hale getirilmiştir.
 
-Alışkanlıklar
-Alışkanlık Takibi: Düzenli olarak yapmanız gereken alışkanlıkları oluşturup takip edebilirsiniz. Alışkanlıklar, zamanı geldiğinde bildirim gönderir.
+## Öğrenilenler
 
-Hatırlatıcılar: Bir alışkanlık uzun süre yapılmadığında, hatırlatıcı bildirimi gönderilir.
+- **Jetpack Compose**: Bu projede Jetpack Compose'u kullanarak modern Android uygulamaları geliştirme deneyimi kazandım.
+- **Broadcast Receiver ve Bildirimler**: Android'de bildirimleri ve hatırlatıcıları etkin bir şekilde kullanmayı öğrendim.
+- **Room Database**: Veritabanı yönetimi ve kalıcı veri saklama yöntemlerini başarıyla uyguladım.
+- **MVVM ve Clean Architecture**: Bu uygulamada bu iki mimariyi kullanarak uygulama geliştirme sürecini daha verimli hale getirdim.
 
-Alışkanlık Verileri: Alışkanlıklarınız için günlük, haftalık ve aylık veriler, başarılar, ve grafiklerle izlenebilir.
+## Kullanıcı Deneyimi
+Taskly, kullanıcı dostu bir arayüze sahip olup, görev ve alışkanlıkları kolayca takip etmenizi sağlar. Görsel açıdan şık, anlaşılır ve etkili bir kullanıcı deneyimi sunmak için özenle tasarlanmıştır.
 
-Grafikler ve İstatistikler: Yapılan alışkanlıkların sıklığı, başarı oranları ve ilerleme yüzdesi gibi istatistiksel veriler sunulur.
-
-İleri Düzey Özellikler
-Takvim: Görev ve alışkanlıklarınızı takvim üzerinde takip edebilir, tarihleri işaretleyip notlar ekleyebilirsiniz.
-
-Başarılar ve Puanlama: Alışkanlıklarınızı takip ederken, günlük puanlar ve başarılar kazanabilirsiniz. İlerleme yüzdesi de takip edilebilir.
-
-Grafikler: Alışkanlıklar için günlere göre sıklık ve başarı grafikleri, saatlik grafikler ve daha fazlası mevcuttur.
-
-Teknolojiler ve Araçlar
-Jetpack Compose: Uygulama, Android’in modern UI aracılığıyla tamamen Compose ile geliştirilmiştir.
-
-Room Database: Verilerinizi depolamak için Room veritabanı kullanıldı, bu sayede veriler cihazda güvenli bir şekilde saklanır.
-
-Broadcast Receiver ve Bildirimler: Görev ve alışkanlık hatırlatıcıları için Broadcast Receiver kullanılarak bildirimler başarıyla gönderilmektedir.
-
-Mimari
-Uygulama, MVVM mimarisiyle geliştirilmiştir ve Clean Architecture prensiplerine uygun şekilde yapılandırılmıştır. Bu sayede uygulama bakımı kolay ve esnektir.
-
-Uygulamanın Öğrenilenler
-Jetpack Compose: Bu uygulama ile Jetpack Compose'u ilk kez kullanarak kullanıcı arayüzü geliştirdim.
-
-Broadcast Receiver ve Bildirimler: Android’de bildirim göndermeyi öğrenerek, kullanıcıyı düzenli bilgilendirme işlevini başarıyla ekledim.
-
-Room Database Kullanımı: Veritabanı yönetimi ve kalıcı veri saklama yöntemlerini uygulamalı olarak öğrendim.
-
-MVVM ve Clean Architecture: Bu mimariler ile uygulama geliştirme süreçlerini daha verimli hale getirdim.
-
-Kullanıcı Deneyimi
-Taskly, kullanıcı dostu ve hoş görünümlü bir arayüze sahip olup, kullanıcıların görevlerini ve alışkanlıklarını kolayca takip etmelerini sağlar. Her şey kullanıcıyı düşünerek tasarlandı ve her özelliğin kolayca anlaşılır olduğundan emin olundu.
+---
