@@ -62,7 +62,7 @@ Taskly, kullanıcı dostu bir arayüze sahip olup, görev ve alışkanlıkları 
 <p float="left"> <img src="screenshots/habit_detail_info.jpg" width="250"/> <img src="screenshots/habit_detail_graph.jpg" width="250"/> <img src="screenshots/habit_detail_calendar.jpg" width="250"/> <img src="screenshots/habit_detail_achievements.jpg" width="250"/> </p>
 
 - **Bildirimler**
-  <p float="left"> <img src="screenshots/notifications.jpg" width="250"/> </p>
+  <p float="left"> <img src="screenshots/notifications.jpg" width="250"/> <img src="screenshots/daily_notifications.jpg" width="250"/> <img src="screenshots/task_notifications.jpg" width="250"/></p>
 
 ## Nasıl Çalıştırılır?
 1. Repozitoriyi klonlayın:
