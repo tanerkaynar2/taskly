@@ -53,14 +53,14 @@ Taskly, kullanıcı dostu bir arayüze sahip olup, görev ve alışkanlıkları 
    ```bash
    git clone https://github.com/tanerkaynar2/taskly.git
    
-Android Studio'yu açın ve projeyi yükleyin.
+2. Android Studio'yu açın ve projeyi yükleyin.
 
-Uygulamayı çalıştırın:
+3. Uygulamayı çalıştırın:
 
-Android emülatörü seçin veya bir fiziksel cihaz bağlayın.
+4. Android emülatörü seçin veya bir fiziksel cihaz bağlayın.
 
-Run (Yeşil Play butonu) butonuna tıklayarak uygulamayı başlatın.
+5. Run (Yeşil Play butonu) butonuna tıklayarak uygulamayı başlatın.
 
-Bağımlılıkları ve gerekli araçları (Android SDK, Gradle gibi) yükleyin.
+6. Bağımlılıkları ve gerekli araçları (Android SDK, Gradle gibi) yükleyin.
 
 ---
